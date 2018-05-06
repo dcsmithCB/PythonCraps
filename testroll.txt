@@ -1,0 +1,278 @@
+
+
+Build Version: 1.0 
+Time: Tue May  1 17:06:50 2018 
+
+
+Start
+
+printState(): bankRoll: 0  rollState: 0 rollCount: 0
+currentBets: []
+Current Dice: 0 Die1: 0 Die2: 0
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 0 TotalPoint6: 0 TotalPoint8: 0
+TotalField: 0 totalFieldDouble: 0
+currentBetsLen: 0.0 currentPoint: 0 
+
+Game: 1
+ComeOutRoll
+You roll a 1 and 1 for a total of 2
+
+printState(): bankRoll: 0  rollState: 0 rollCount: 0
+currentBets: []
+Current Dice: 2 Die1: 1 Die2: 1
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 0 TotalPoint6: 0 TotalPoint8: 0
+TotalField: 0 totalFieldDouble: 0
+currentBetsLen: 0.0 currentPoint: 0 
+
+Game: 2
+ComeOutRoll
+You roll a 1 and 4 for a total of 5
+point:  5
+Added bet: field : 200 bankRoll: -200
+Added bet: place5 : 200 bankRoll: -400
+Added bet: place6 : 220 bankRoll: -620
+Added bet: place8 : 220 bankRoll: -840
+You roll a 4 and 5 for a total of 9
+field bet pays 1:1  400 bankRoll: -440
+RollCount:  1
+Takedown:  place5 for 200 bankRoll: -240
+Takedown:  place6 for 220 bankRoll: -20
+Takedown:  place8 for 220 bankRoll: 200
+Added bet: field : 50 bankRoll: 150
+Added bet: place5 : 50 bankRoll: 100
+Added bet: place6 : 50 bankRoll: 50
+Added bet: place8 : 50 bankRoll: 0
+You roll a 3 and 4 for a total of 7
+out, remove bets
+RollCount:  2
+
+printState(): bankRoll: 0  rollState: 0 rollCount: 3
+currentBets: []
+Current Dice: 7 Die1: 3 Die2: 4
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 0 TotalPoint6: 0 TotalPoint8: 0
+TotalField: 1 totalFieldDouble: 0
+currentBetsLen: 0.0 currentPoint: 5 
+
+Game: 3
+ComeOutRoll
+You roll a 2 and 6 for a total of 8
+point:  8
+Added bet: field : 200 bankRoll: -200
+Added bet: place5 : 200 bankRoll: -400
+Added bet: place6 : 220 bankRoll: -620
+Added bet: place8 : 220 bankRoll: -840
+You roll a 5 and 5 for a total of 10
+field bet pays 1:1  400 bankRoll: -440
+RollCount:  1
+Takedown:  place5 for 200 bankRoll: -240
+Takedown:  place6 for 220 bankRoll: -20
+Takedown:  place8 for 220 bankRoll: 200
+Added bet: field : 50 bankRoll: 150
+Added bet: place5 : 50 bankRoll: 100
+Added bet: place6 : 50 bankRoll: 50
+Added bet: place8 : 50 bankRoll: 0
+You roll a 4 and 6 for a total of 10
+field bet pays 1:1  100 bankRoll: 100
+RollCount:  2
+Takedown:  place5 for 50 bankRoll: 150
+Takedown:  place6 for 50 bankRoll: 200
+Takedown:  place8 for 50 bankRoll: 250
+Added bet: field : 50 bankRoll: 200
+Added bet: place5 : 50 bankRoll: 150
+Added bet: place6 : 50 bankRoll: 100
+Added bet: place8 : 50 bankRoll: 50
+You roll a 1 and 2 for a total of 3
+field bet pays 1:1  100 bankRoll: 150
+RollCount:  3
+You roll a 3 and 3 for a total of 6
+Place 6 bet pays 7/6  8.334999999999999 bankRoll: 158.0
+RollCount:  4
+You roll a 3 and 3 for a total of 6
+Place 6 bet pays 7/6  8.334999999999999 bankRoll: 166.0
+RollCount:  5
+You roll a 3 and 5 for a total of 8
+Place 8 bet pays 7/6  8.334999999999999 bankRoll: 174.0
+point hit, pay bets
+Takedown:  place5 for 50 bankRoll: 224.0
+Takedown:  place6 for 50 bankRoll: 274.0
+Takedown:  place8 for 50 bankRoll: 324.0
+RollCount:  6
+
+printState(): bankRoll: 324.0  rollState: 0 rollCount: 7
+currentBets: ['delete', 0, 'delete', 0, 'delete', 0]
+Current Dice: 8 Die1: 3 Die2: 5
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 0 TotalPoint6: 2 TotalPoint8: 1
+TotalField: 4 totalFieldDouble: 0
+currentBetsLen: 3.0 currentPoint: 8 
+
+Game: 4
+ComeOutRoll
+You roll a 2 and 1 for a total of 3
+
+printState(): bankRoll: 324.0  rollState: 0 rollCount: 7
+currentBets: []
+Current Dice: 3 Die1: 2 Die2: 1
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 0 TotalPoint6: 2 TotalPoint8: 1
+TotalField: 4 totalFieldDouble: 0
+currentBetsLen: 0.0 currentPoint: 8 
+
+Game: 5
+ComeOutRoll
+You roll a 4 and 6 for a total of 10
+point:  10
+Added bet: field : 200 bankRoll: 124.0
+Added bet: place5 : 200 bankRoll: -76.0
+Added bet: place6 : 220 bankRoll: -296.0
+Added bet: place8 : 220 bankRoll: -516.0
+You roll a 1 and 3 for a total of 4
+field bet pays 1:1  400 bankRoll: -116.0
+RollCount:  1
+Takedown:  place5 for 200 bankRoll: 84.0
+Takedown:  place6 for 220 bankRoll: 304.0
+Takedown:  place8 for 220 bankRoll: 524.0
+Added bet: field : 50 bankRoll: 474.0
+Added bet: place5 : 50 bankRoll: 424.0
+Added bet: place6 : 50 bankRoll: 374.0
+Added bet: place8 : 50 bankRoll: 324.0
+You roll a 6 and 3 for a total of 9
+field bet pays 1:1  100 bankRoll: 424.0
+RollCount:  2
+Takedown:  place5 for 50 bankRoll: 474.0
+Takedown:  place6 for 50 bankRoll: 524.0
+Takedown:  place8 for 50 bankRoll: 574.0
+Added bet: field : 50 bankRoll: 524.0
+Added bet: place5 : 50 bankRoll: 474.0
+Added bet: place6 : 50 bankRoll: 424.0
+Added bet: place8 : 50 bankRoll: 374.0
+You roll a 1 and 3 for a total of 4
+field bet pays 1:1  100 bankRoll: 474.0
+RollCount:  3
+You roll a 3 and 4 for a total of 7
+out, remove bets
+RollCount:  4
+
+printState(): bankRoll: 474.0  rollState: 0 rollCount: 5
+currentBets: []
+Current Dice: 7 Die1: 3 Die2: 4
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 0 TotalPoint6: 2 TotalPoint8: 1
+TotalField: 7 totalFieldDouble: 0
+currentBetsLen: 0.0 currentPoint: 10 
+
+Game: 6
+ComeOutRoll
+You roll a 1 and 1 for a total of 2
+
+printState(): bankRoll: 474.0  rollState: 0 rollCount: 5
+currentBets: []
+Current Dice: 2 Die1: 1 Die2: 1
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 0 TotalPoint6: 2 TotalPoint8: 1
+TotalField: 7 totalFieldDouble: 0
+currentBetsLen: 0.0 currentPoint: 10 
+
+Game: 7
+ComeOutRoll
+You roll a 1 and 6 for a total of 7
+
+printState(): bankRoll: 474.0  rollState: 0 rollCount: 5
+currentBets: []
+Current Dice: 7 Die1: 1 Die2: 6
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 0 TotalPoint6: 2 TotalPoint8: 1
+TotalField: 7 totalFieldDouble: 0
+currentBetsLen: 0.0 currentPoint: 10 
+
+Game: 8
+ComeOutRoll
+You roll a 2 and 3 for a total of 5
+point:  5
+Added bet: field : 200 bankRoll: 274.0
+Added bet: place5 : 200 bankRoll: 74.0
+Added bet: place6 : 220 bankRoll: -146.0
+Added bet: place8 : 220 bankRoll: -366.0
+You roll a 3 and 1 for a total of 4
+field bet pays 1:1  400 bankRoll: 34.0
+RollCount:  1
+Takedown:  place5 for 200 bankRoll: 234.0
+Takedown:  place6 for 220 bankRoll: 454.0
+Takedown:  place8 for 220 bankRoll: 674.0
+Added bet: field : 50 bankRoll: 624.0
+Added bet: place5 : 50 bankRoll: 574.0
+Added bet: place6 : 50 bankRoll: 524.0
+Added bet: place8 : 50 bankRoll: 474.0
+You roll a 1 and 3 for a total of 4
+field bet pays 1:1  100 bankRoll: 574.0
+RollCount:  2
+Takedown:  place5 for 50 bankRoll: 624.0
+Takedown:  place6 for 50 bankRoll: 674.0
+Takedown:  place8 for 50 bankRoll: 724.0
+Added bet: field : 50 bankRoll: 674.0
+Added bet: place5 : 50 bankRoll: 624.0
+Added bet: place6 : 50 bankRoll: 574.0
+Added bet: place8 : 50 bankRoll: 524.0
+You roll a 1 and 4 for a total of 5
+Place 5 bet pays 7/5  20.0 bankRoll: 544.0
+point hit, pay bets
+Takedown:  place5 for 50 bankRoll: 594.0
+Takedown:  place6 for 50 bankRoll: 644.0
+Takedown:  place8 for 50 bankRoll: 694.0
+RollCount:  3
+
+printState(): bankRoll: 694.0  rollState: 0 rollCount: 4
+currentBets: ['delete', 0, 'delete', 0, 'delete', 0]
+Current Dice: 5 Die1: 1 Die2: 4
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 1 TotalPoint6: 2 TotalPoint8: 1
+TotalField: 9 totalFieldDouble: 0
+currentBetsLen: 3.0 currentPoint: 5 
+
+Game: 9
+ComeOutRoll
+You roll a 6 and 6 for a total of 12
+
+printState(): bankRoll: 694.0  rollState: 0 rollCount: 4
+currentBets: []
+Current Dice: 12 Die1: 6 Die2: 6
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 1 TotalPoint6: 2 TotalPoint8: 1
+TotalField: 9 totalFieldDouble: 0
+currentBetsLen: 0.0 currentPoint: 5 
+
+Game: 10
+ComeOutRoll
+You roll a 1 and 4 for a total of 5
+point:  5
+Added bet: field : 200 bankRoll: 494.0
+Added bet: place5 : 200 bankRoll: 294.0
+Added bet: place6 : 220 bankRoll: 74.0
+Added bet: place8 : 220 bankRoll: -146.0
+You roll a 4 and 5 for a total of 9
+field bet pays 1:1  400 bankRoll: 254.0
+RollCount:  1
+Takedown:  place5 for 200 bankRoll: 454.0
+Takedown:  place6 for 220 bankRoll: 674.0
+Takedown:  place8 for 220 bankRoll: 894.0
+Added bet: field : 50 bankRoll: 844.0
+Added bet: place5 : 50 bankRoll: 794.0
+Added bet: place6 : 50 bankRoll: 744.0
+Added bet: place8 : 50 bankRoll: 694.0
+You roll a 3 and 6 for a total of 9
+field bet pays 1:1  100 bankRoll: 794.0
+RollCount:  2
+Takedown:  place5 for 50 bankRoll: 844.0
+Takedown:  place6 for 50 bankRoll: 894.0
+Takedown:  place8 for 50 bankRoll: 944.0
+Added bet: field : 50 bankRoll: 894.0
+Added bet: place5 : 50 bankRoll: 844.0
+Added bet: place6 : 50 bankRoll: 794.0
+Added bet: place8 : 50 bankRoll: 744.0
+You roll a 2 and 4 for a total of 6
+Place 6 bet pays 7/6  8.334999999999999 bankRoll: 752.0
+RollCount:  3
+You roll a 5 and 2 for a total of 7
+out, remove bets
+RollCount:  4
+
+printState(): bankRoll: 752.0  rollState: 0 rollCount: 5
+currentBets: []
+Current Dice: 7 Die1: 5 Die2: 2
+ComeOutWins: 0 ComeOutLosses: 0 TotalPoint5: 1 TotalPoint6: 3 TotalPoint8: 1
+TotalField: 11 totalFieldDouble: 0
+currentBetsLen: 0.0 currentPoint: 5 
+
